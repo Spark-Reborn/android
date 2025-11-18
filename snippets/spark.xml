@@ -32,6 +32,8 @@
   <project path="device/spark/sepolicy" name="Spark-Reborn/device_spark_sepolicy" remote="spark" />
 
   <project path="external/FadingEdgeLayout" name="Spark-Reborn/external_FadingEdgeLayout" remote="spark" />
+  <!-- External repos -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="spark" revision="master" />
 
   <project path="frameworks/av" name="Spark-Reborn/frameworks_av" groups="pdk,sysui-studio" remote="spark" />
   <project path="frameworks/base" name="Spark-Reborn/base-temp" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" revision="sixteen" />
