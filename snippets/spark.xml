@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="spark"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/main" />
+
+  <!-- spark additions -->
+  <project path="android" name="Spark-Reborn/android" remote="spark" />
+
+  <project path="build/make" name="Spark-Reborn/build" groups="pdk,sysui-studio" remote="spark" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="Spark-Reborn/build_soong" groups="pdk,tradefed,sysui-studio" remote="spark" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="Spark-Reborn/art" groups="pdk" remote="spark" />
+  <project path="bionic" name="Spark-Reborn/bionic" groups="pdk" remote="spark" />
+
+  <project path="bootable/recovery" name="Spark-Reborn/bootable_recovery" groups="pdk" remote="spark" />
+
+  <project path="device/spark/sepolicy" name="Spark-Reborn/device_spark_sepolicy" remote="spark" />
+
+  <project path="external/FadingEdgeLayout" name="Spark-Reborn/external_FadingEdgeLayout" remote="spark" />
+
+  <project path="frameworks/av" name="Spark-Reborn/frameworks_av" groups="pdk,sysui-studio" remote="spark" />
+  <project path="frameworks/base" name="Spark-Reborn/base-temp" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" revision="sixteen" />
+  <project path="frameworks/libs/systemui" name="Spark-Reborn/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
+  <project path="frameworks/native" name="Spark-Reborn/frameworks_native" groups="pdk" remote="spark" />
+
+  <project path="lineage-sdk" name="Spark-Reborn/lineage-sdk" remote="spark" />
+
+  <project path="packages/apps/Backgrounds" name="Spark-Reborn/packages_apps_Backgrounds" remote="spark" />
+  <project path="packages/apps/ColumbusService" name="Spark-Reborn/packages_apps_ColumbusService" remote="spark" />
+  <project path="packages/apps/Fireworks" name="Spark-Reborn/packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/FaceUnlock" name="Spark-Reborn/packages_apps_FaceUnlock" remote="spark" />
+  <project path="packages/apps/SparkWallpaperStub" name="Spark-Reborn/packages_apps_SparkWallpaperStub" remote="spark" />
+  <project path="packages/apps/GameSpace" name="Spark-Reborn/packages_apps_GameSpace" remote="spark" />
+  <project path="packages/apps/Launcher3" name="Spark-Reborn/packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="spark" />
+  <project path="packages/apps/LineageParts" name="Spark-Reborn/packages_apps_LineageParts" remote="spark" />
+  <project path="packages/apps/LMOFreeform" name="Spark-Reborn/packages_apps_LMOFreeform" remote="spark" />
+  <project path="packages/apps/OmniStyle" name="Spark-Reborn/packages_apps_OmniStyle" remote="spark" />
+  <project path="packages/apps/Settings" name="Spark-Reborn/packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="spark" revision="sixteen" />
+  <project path="packages/apps/ThemePicker" name="Spark-Reborn/packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="spark" />
+  <project path="packages/services/OmniJaws" name="Spark-Reborn/packages_services_OmniJaws" remote="spark" />
+  <project path="packages/services/Telecomm" name="Spark-Reborn/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="spark" />
+  <project path="packages/modules/DnsResolver" name="Spark-Reborn/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="spark" />
+
+  <project path="system/core" name="Spark-Reborn/system_core" groups="pdk" remote="spark" />
+
+  <project path="vendor/addons" name="Spark-Reborn/vendor_addons" remote="spark" />
+  <project path="vendor/spark" name="Spark-Reborn/vendor_spark" remote="spark" />
+
+</manifest>
