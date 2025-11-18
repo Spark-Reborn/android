@@ -40,7 +40,6 @@
 
   <project path="lineage-sdk" name="Spark-Reborn/lineage-sdk" remote="spark" />
 
-  <project path="packages/apps/Backgrounds" name="Spark-Reborn/packages_apps_Backgrounds" remote="spark" />
   <project path="packages/apps/ColumbusService" name="Spark-Reborn/packages_apps_ColumbusService" remote="spark" />
   <project path="packages/apps/Fireworks" name="Spark-Reborn/packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/FaceUnlock" name="Spark-Reborn/packages_apps_FaceUnlock" remote="spark" />
