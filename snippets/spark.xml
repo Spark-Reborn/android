@@ -38,7 +38,7 @@
   <project path="external/bouncycastle" name="Spark-Reborn/external_bouncycastle" groups="pdk" remote="spark" />
   <project path="external/FadingEdgeLayout" name="Spark-Reborn/android_external_FadingEdgeLayout" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="spark" revision="master" />
-  <project path="external/zlib-ng" name="Spark-Reborn/zlib-ng" remote="spark" />
+  <project path="external/zlib-ng" name="Spark-Reborn/external_zlib-ng" remote="spark" />
 
   <project path="frameworks/av" name="Spark-Reborn/frameworks_av" groups="pdk,sysui-studio" remote="spark" />
   <project path="frameworks/base" name="Spark-Reborn/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
