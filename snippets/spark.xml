@@ -36,7 +36,7 @@
 
   <project path="external/arm-optimized-routines" name="Spark-Reborn/external_arm-optimized-routines" groups="pdk" remote="spark" />
   <project path="external/bouncycastle" name="Spark-Reborn/external_bouncycastle" groups="pdk" remote="spark" />
-  <project path="external/FadingEdgeLayout" name="Spark-Reborn/external_FadingEdgeLayout" remote="spark" />
+  <project path="external/FadingEdgeLayout" name="Spark-Reborn/android_external_FadingEdgeLayout" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="spark" revision="master" />
   <project path="external/zlib-ng" name="Spark-Reborn/zlib-ng" remote="spark" />
 
