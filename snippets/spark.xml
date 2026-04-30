@@ -42,6 +42,7 @@
 
   <project path="frameworks/av" name="Spark-Reborn/frameworks_av" groups="pdk,sysui-studio" remote="spark" />
   <project path="frameworks/base" name="Spark-Reborn/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
+  <project path="frameworks/opt/net/wifi" name="Spark-Reborn/frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="spark" />
   <project path="frameworks/libs/systemui" name="Spark-Reborn/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
   <project path="frameworks/native" name="Spark-Reborn/frameworks_native" groups="pdk" remote="spark" />
 
