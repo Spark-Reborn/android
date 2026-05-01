@@ -7,6 +7,13 @@
            sync-j="4"
            revision="refs/heads/16.0" />
 
+  <remote  name="spark-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/16.2" />
+
+
   <!-- Spark additions -->
   <project path="android" name="Spark-Reborn/android" remote="spark" />
 
@@ -83,5 +90,7 @@
 
   <project path="vendor/addons" name="Spark-Reborn/vendor_addons" remote="spark" />
   <project path="vendor/spark" name="Spark-Reborn/vendor_spark" remote="spark" />
+  <project path="vendor/gms" name="spkal01/vendor-gms-new" remote="spark-gitlab" />
+
 
 </manifest>
