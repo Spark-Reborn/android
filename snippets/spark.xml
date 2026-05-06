@@ -75,6 +75,7 @@
   <project path="packages/apps/ThemeStore" name="Spark-Reborn/packages_apps_ThemeStore" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="Spark-Reborn/packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="spark" />
   <project path="packages/modules/Bluetooth" name="Spark-Reborn/packages_modules_Bluetooth" groups="pdk" remote="spark" />
+  <project path="packages/modules/Connectivity" name="Spark-Reborn/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="spark" />
   <project path="packages/modules/DnsResolver" name="Spark-Reborn/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="spark" />
   <project path="packages/modules/Permission" name="Spark-Reborn/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="spark" />
   <project path="packages/modules/Wifi" name="Spark-Reborn/packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
