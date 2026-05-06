@@ -9,9 +9,7 @@
 
   <remote  name="spark-gitlab"
            fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/16.2" />
+           revision="sixteen-qpr2" />
 
 
   <!-- Spark additions -->
@@ -91,7 +89,8 @@
 
   <project path="vendor/addons" name="Spark-Reborn/vendor_addons" remote="spark" />
   <project path="vendor/spark" name="Spark-Reborn/vendor_spark" remote="spark" />
-  <project path="vendor/gms" name="spkal01/vendor-gms-new" remote="spark-gitlab" />
+  <project path="vendor/pixel/gms" name="spkal01/proprietary_vendor_pixel_gms-16.2" remote="spark-gitlab" />
+  <project path="vendor/pixel/sounds" name="spkal01/proprietary_vendor_pixel_sounds" remote="spark-gitlab" />
 
 
 </manifest>
