@@ -419,7 +419,6 @@
   <project path="external/pogreb" name="platform/external/pogreb" groups="pdk" remote="aosp" />
   <project path="external/private-join-and-compute" name="platform/external/private-join-and-compute" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk,sysui-studio" remote="aosp" />
-  <project path="external/pthreadpool" name="platform/external/pthreadpool" groups="pdk" remote="aosp" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" remote="aosp" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="pdk" remote="aosp" />
   <project path="external/python/apitools" name="platform/external/python/apitools" groups="pdk" remote="aosp" />
@@ -522,7 +521,6 @@
   <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" remote="aosp" />
-  <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp" />
   <project path="external/TestParameterInjector" name="platform/external/TestParameterInjector" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/tflite-support" name="platform/external/tflite-support" groups="pdk" remote="aosp" />

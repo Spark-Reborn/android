@@ -31,7 +31,7 @@
 
   <project path="art" name="Spark-Reborn/art" groups="pdk" remote="spark" />
 
-  <project path="axion-sdk" name="Spark-Reborn/axion-sdk" remote="spark" />
+  <project path="axion_sdk" name="Spark-Reborn/axion-sdk" remote="spark" />
 
   <project path="bionic" name="Spark-Reborn/bionic" groups="pdk" remote="spark" />
 
@@ -44,6 +44,9 @@
   <project path="external/FadingEdgeLayout" name="Spark-Reborn/android_external_FadingEdgeLayout" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="spark" revision="master" />
   <project path="external/zlib-ng" name="Spark-Reborn/external_zlib-ng" remote="spark" />
+  <project path="external/tensorflow" name="Spark-Reborn/external_tensorflow" remote="spark" />
+  <project path="external/pthreadpool" name="Spark-Reborn/external_pthreadpool" remote="spark" />
+
 
   <project path="frameworks/av" name="Spark-Reborn/frameworks_av" groups="pdk,sysui-studio" remote="spark" />
   <project path="frameworks/base" name="Spark-Reborn/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="spark" />
@@ -56,6 +59,8 @@
   <project path="lineage-sdk" name="Spark-Reborn/lineage-sdk" remote="spark" />
 
   <project path="packages/apps/AppLocker" name="Spark-Reborn/packages_apps_AppLocker" remote="spark" />
+  <project path="packages/apps/AxWallpaperEffects" name="Spark-Reborn/packages_apps_AxWallpaperEffects" remote="spark" />
+  <project path="packages/apps/AxionWidgets" name="Spark-Reborn/packages_apps_AxionWidgets" remote="spark" />
   <project path="packages/apps/ColumbusService" name="Spark-Reborn/packages_apps_ColumbusService" remote="spark" />
 
   <project path="packages/apps/Fireworks" name="Spark-Reborn/packages_apps_Fireworks" remote="spark" />
